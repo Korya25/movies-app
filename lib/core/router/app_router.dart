@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:movies_ap_p/core/router/app_routes.dart';
 import 'package:movies_ap_p/features/home/presentation/screens/main_screen.dart';
+import 'package:movies_ap_p/features/movies/presentation/screens/movie_details_screen.dart';
+import 'package:movies_ap_p/features/movies/presentation/screens/movies_screen.dart';
+import 'package:movies_ap_p/features/movies/presentation/screens/popular_movies_screen.dart';
+import 'package:movies_ap_p/features/movies/presentation/screens/top_rated_movies_screen.dart';
 
 class AppRouter {
   static final GoRouter router = GoRouter(
@@ -15,61 +19,29 @@ class AppRouter {
             name: AppRoutes.moviesScreen,
             path: AppRoutes.moviesScreen,
             pageBuilder:
-                (context, state) => const NoTransitionPage(
-                  child: Scaffold(
-                    body: Center(
-                      child: Text(
-                        'Movies Screen',
-                        style: TextStyle(fontSize: 20),
-                      ),
-                    ),
-                  ),
-                ),
+                (context, state) =>
+                    const NoTransitionPage(child: MoviesScreen()),
             routes: [
               GoRoute(
                 name: AppRoutes.movieDetailsScreen,
                 path: AppRoutes.movieDetailsScreen,
                 pageBuilder:
-                    (context, state) => CupertinoPage(
-                      child: Scaffold(
-                        body: Center(
-                          child: Text(
-                            'Movie Details Screen',
-                            style: TextStyle(fontSize: 20),
-                          ),
-                        ),
-                      ),
-                    ),
+                    (context, state) =>
+                        CupertinoPage(child: MovieDetailsScreen()),
               ),
               GoRoute(
                 name: AppRoutes.popularMoviesScreen,
                 path: AppRoutes.popularMoviesScreen,
                 pageBuilder:
-                    (context, state) => const CupertinoPage(
-                      child: Scaffold(
-                        body: Center(
-                          child: Text(
-                            'Popular Movies Screen',
-                            style: TextStyle(fontSize: 20),
-                          ),
-                        ),
-                      ),
-                    ),
+                    (context, state) =>
+                        const CupertinoPage(child: PopularMoviesScreen()),
               ),
               GoRoute(
                 name: AppRoutes.topRatedMoviesScreen,
                 path: AppRoutes.topRatedMoviesScreen,
                 pageBuilder:
-                    (context, state) => const CupertinoPage(
-                      child: Scaffold(
-                        body: Center(
-                          child: Text(
-                            'Top Rated Movies Screen',
-                            style: TextStyle(fontSize: 20),
-                          ),
-                        ),
-                      ),
-                    ),
+                    (context, state) =>
+                        const CupertinoPage(child: TopRatedMoviesScreen()),
               ),
             ],
           ),
