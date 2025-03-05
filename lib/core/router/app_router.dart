@@ -9,7 +9,7 @@ class AppRouter {
     initialLocation: AppRoutes.moviesScreen,
     routes: [
       ShellRoute(
-        builder: (context, state, child) => MainScreen(),
+        builder: (context, state, child) => MainScreen(child: child),
         routes: [
           GoRoute(
             name: AppRoutes.moviesScreen,
