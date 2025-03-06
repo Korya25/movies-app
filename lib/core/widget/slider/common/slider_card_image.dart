@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movies_ap_p/core/constant/app_colors.dart';
-import 'package:movies_ap_p/core/widget/other/image_with_shimmer.dart';
+import 'package:movies_ap_p/core/widget/slider/common/image_with_shimmer.dart';
 
 class SliderCardImage extends StatelessWidget {
   const SliderCardImage({super.key, required this.imageUrl});

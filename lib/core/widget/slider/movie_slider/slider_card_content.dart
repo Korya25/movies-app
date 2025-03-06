@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movies_ap_p/core/constant/app_constant.dart';
 import 'package:movies_ap_p/core/constant/app_dimens.dart';
-import 'package:movies_ap_p/core/widget/other/dotindicator_row.dart';
+import 'package:movies_ap_p/core/widget/common/dotindicator_row.dart';
 
 class SliderCardContent extends StatelessWidget {
   const SliderCardContent({super.key, required this.itemIndex});
