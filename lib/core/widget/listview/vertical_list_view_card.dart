@@ -26,7 +26,7 @@ class VerticalListViewCard extends StatelessWidget {
                 borderRadius: BorderRadius.circular(Dimens.size8),
                 child: ImageWithShimmer(
                   imageUrl:
-                      'https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg',
+                      'https://imageio.forbes.com/i-forbesimg/media/lists/teams/real-madrid_416x416.jpg?format=jpg',
                   width: Dimens.size110,
                   height: double.infinity,
                 ),
