@@ -50,6 +50,7 @@ dependencies:
   # A package provides an easy way to add shimmer effect in Flutter project
   shimmer: ^3.0.0
   carousel_slider: ^5.0.0
+  readmore: ^3.0.0
 
 dev_dependencies:
   flutter_test:
