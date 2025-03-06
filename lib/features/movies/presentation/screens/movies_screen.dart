@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/features/movies/presentation/views/movies_slider_view.dart';
-import 'package:movies_ap_p/features/movies/presentation/views/popular_movies_view.dart';
-import 'package:movies_ap_p/features/movies/presentation/views/toprated_movies_view.dart';
+import 'package:movies_ap_p/features/movies/presentation/views/movies_screen/movies_slider_view.dart';
+import 'package:movies_ap_p/features/movies/presentation/views/movies_screen/toprated_movies_view.dart';
+import 'package:movies_ap_p/features/movies/presentation/views/movies_screen_views/popular_movies_view.dart';
 
 class MoviesScreen extends StatelessWidget {
   const MoviesScreen({super.key});
