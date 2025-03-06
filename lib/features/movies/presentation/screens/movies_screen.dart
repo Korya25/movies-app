@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movies_ap_p/features/movies/presentation/views/movies_slider_view.dart';
 import 'package:movies_ap_p/features/movies/presentation/views/popular_movies_view.dart';
+import 'package:movies_ap_p/features/movies/presentation/views/toprated_movies_view.dart';
 
 class MoviesScreen extends StatelessWidget {
   const MoviesScreen({super.key});
@@ -17,6 +18,7 @@ class MoviesWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScrollView(
+      physics: const BouncingScrollPhysics(),
       slivers: [
         // Slider View
         SliverToBoxAdapter(child: MoviesSliderView()),
@@ -25,13 +27,7 @@ class MoviesWidget extends StatelessWidget {
         const SliverToBoxAdapter(child: PopularMoviesView()),
 
         // Top Rated Movies View
-        const SliverToBoxAdapter(
-          child: Column(
-            children: [
-              // Top Rated Movies Widget
-            ],
-          ),
-        ),
+        const SliverToBoxAdapter(child: TopratedMoviesView()),
       ],
     );
   }

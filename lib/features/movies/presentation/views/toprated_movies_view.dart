@@ -7,22 +7,19 @@ import 'package:movies_ap_p/core/widget/listview_cards/listview_card_section.dar
 import 'package:movies_ap_p/core/widget/listview_cards/listview_section.dart';
 import 'package:movies_ap_p/core/widget/other/header_section.dart';
 
-class PopularMoviesView extends StatelessWidget {
-  const PopularMoviesView({super.key});
+class TopratedMoviesView extends StatelessWidget {
+  const TopratedMoviesView({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        // Header Section
         HeaderSection(
-          title: AppStrings.popularMovies,
+          title: AppStrings.topRatedMovies,
           onTap: () {
-            context.goNamed(AppRoutes.popularMoviesScreen);
+            context.goNamed(AppRoutes.topRatedMoviesScreen);
           },
         ),
-
-        // Popular Movies List View
         ListviewSection(
           height: Dimens.size240,
           itemBuilder: (context, index) {
