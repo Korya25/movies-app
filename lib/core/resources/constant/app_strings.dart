@@ -13,6 +13,8 @@ class AppStrings {
   static const String topRatedMovies = 'Top rated movies';
   static const String popularShows = 'Popular shows';
   static const String topRatedShows = 'Top rated shows';
+  static const String popularTvShows = 'Popular tv shows';
+  static const String topRatedTvShows = 'Top rated tv shows';
 
   // Movie/Show Details
   static const String story = 'Story';

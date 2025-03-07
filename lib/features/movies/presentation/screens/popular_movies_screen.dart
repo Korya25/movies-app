@@ -12,7 +12,7 @@ class PopularMoviesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(title: AppStrings.popularMovies),
+      appBar: CustomAppBar(title: AppStrings.popularTvShows),
       body: PopularMoviesWidget(),
     );
   }

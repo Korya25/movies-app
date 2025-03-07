@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movies_ap_p/features/shows/presentation/views/popular_show_view.dart';
+import 'package:movies_ap_p/features/shows/presentation/views/top_rated_tv_shows_view.dart';
 import 'package:movies_ap_p/features/shows/presentation/views/tv_show_slider_view.dart';
 
 class TvShowsScreen extends StatelessWidget {
@@ -26,6 +27,7 @@ class TvShowsWidget extends StatelessWidget {
         SliverToBoxAdapter(child: PopularShowView()),
 
         // Top Rated Shows View
+        SliverToBoxAdapter(child: TopRatedTvShowsView()),
       ],
     );
   }
