@@ -5,8 +5,8 @@ import 'package:movies_ap_p/core/presentation/component/slider_card_widget.dart'
 import 'package:movies_ap_p/core/resources/constant/app_constant.dart';
 import 'package:movies_ap_p/core/resources/router/app_routes.dart';
 
-class MoviesSliderView extends StatelessWidget {
-  const MoviesSliderView({super.key});
+class TvShowSliderView extends StatelessWidget {
+  const TvShowSliderView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class MoviesSliderView extends StatelessWidget {
                 'https://imageio.forbes.com/i-forbesimg/media/lists/teams/real-madrid_416x416.jpg?format=jpg',
             itemIndex: itemIndex,
             onTap: () {
-              context.goNamed(AppRoutes.movieDetailsScreen);
+              context.goNamed(AppRoutes.tvShowDetailsScreen);
             },
           ),
       itemCount: AppConstants.carouselSliderItemsCount,

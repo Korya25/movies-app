@@ -7,6 +7,10 @@ import 'package:movies_ap_p/features/movies/presentation/screens/movie_details_s
 import 'package:movies_ap_p/features/movies/presentation/screens/movies_screen.dart';
 import 'package:movies_ap_p/features/movies/presentation/screens/popular_movies_screen.dart';
 import 'package:movies_ap_p/features/movies/presentation/screens/top_rated_movies_screen.dart';
+import 'package:movies_ap_p/features/shows/presentation/screens/popular_tv_shows_screen.dart';
+import 'package:movies_ap_p/features/shows/presentation/screens/top_rated_tv_shows_screen.dart';
+import 'package:movies_ap_p/features/shows/presentation/screens/tv_show_details_screen.dart';
+import 'package:movies_ap_p/features/shows/presentation/screens/tv_shows_screen.dart';
 
 class AppRouter {
   static final GoRouter router = GoRouter(
@@ -49,61 +53,29 @@ class AppRouter {
             name: AppRoutes.tvShowsScreen,
             path: AppRoutes.tvShowsScreen,
             pageBuilder:
-                (context, state) => const NoTransitionPage(
-                  child: Scaffold(
-                    body: Center(
-                      child: Text(
-                        'TV Shows Screen',
-                        style: TextStyle(fontSize: 20),
-                      ),
-                    ),
-                  ),
-                ),
+                (context, state) =>
+                    const NoTransitionPage(child: TvShowsScreen()),
             routes: [
               GoRoute(
                 name: AppRoutes.tvShowDetailsScreen,
                 path: AppRoutes.tvShowDetailsScreen,
                 pageBuilder:
-                    (context, state) => CupertinoPage(
-                      child: Scaffold(
-                        body: Center(
-                          child: Text(
-                            'TV Show Details Screen',
-                            style: TextStyle(fontSize: 20),
-                          ),
-                        ),
-                      ),
-                    ),
+                    (context, state) =>
+                        CupertinoPage(child: TvShowDetailsScreen()),
               ),
               GoRoute(
                 name: AppRoutes.popularTvShowsScreen,
                 path: AppRoutes.popularTvShowsScreen,
                 pageBuilder:
-                    (context, state) => const CupertinoPage(
-                      child: Scaffold(
-                        body: Center(
-                          child: Text(
-                            'Popular TV Shows Screen',
-                            style: TextStyle(fontSize: 20),
-                          ),
-                        ),
-                      ),
-                    ),
+                    (context, state) =>
+                        const CupertinoPage(child: PopularTvShowsScreen()),
               ),
               GoRoute(
                 name: AppRoutes.topRatedTvShowsScreen,
                 path: AppRoutes.topRatedTvShowsScreen,
                 pageBuilder:
-                    (context, state) => const CupertinoPage(
-                      child: Scaffold(
-                        body: Center(
-                          child: Text(
-                            'Top Rated TV Shows Screen',
-                            style: TextStyle(fontSize: 20),
-                          ),
-                        ),
-                      ),
-                    ),
+                    (context, state) =>
+                        const CupertinoPage(child: TopRatedTvShowsScreen()),
               ),
             ],
           ),
