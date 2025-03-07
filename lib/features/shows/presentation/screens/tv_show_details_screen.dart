@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movies_ap_p/features/shows/presentation/views/tv_shows_details_card.dart';
+import 'package:movies_ap_p/features/shows/presentation/views/tv_shows_overview_section.dart';
 
 class TvShowDetailsScreen extends StatelessWidget {
   const TvShowDetailsScreen({super.key});
@@ -20,6 +21,9 @@ class TvShowDetailsWidget extends StatelessWidget {
       slivers: [
         // Tv Shows Details Card Section
         SliverToBoxAdapter(child: TvShowsDetailsCard()),
+
+        // Tv Shows Overview Section
+        SliverToBoxAdapter(child: TvShowsOverviewSection()),
       ],
     );
   }
