@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
-import 'package:movies_ap_p/core/widget/slider/detail/movie_details.dart';
-import 'package:movies_ap_p/core/widget/slider/detail/youtube_button.dart';
+import 'package:movies_ap_p/core/presentation/component/movie_details.dart';
+import 'package:movies_ap_p/core/presentation/component/youtube_button.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
 
 class MovieCardDetailsContent extends StatelessWidget {
   const MovieCardDetailsContent({super.key});

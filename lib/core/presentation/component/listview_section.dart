@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
 
 class ListviewSection extends StatelessWidget {
   const ListviewSection({

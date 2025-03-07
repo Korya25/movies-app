@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
-import 'package:movies_ap_p/core/constant/app_strings.dart';
-import 'package:movies_ap_p/core/router/app_routes.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
+import 'package:movies_ap_p/core/resources/constant/app_strings.dart';
+import 'package:movies_ap_p/core/resources/router/app_routes.dart';
 
 class MainScreen extends StatelessWidget {
   final Widget child;

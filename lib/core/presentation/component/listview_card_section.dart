@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
-import 'package:movies_ap_p/core/router/app_routes.dart';
-import 'package:movies_ap_p/core/widget/slider/common/image_with_shimmer.dart';
-import 'package:movies_ap_p/core/widget/listview/rating_widget.dart';
+import 'package:movies_ap_p/core/presentation/component/image_with_shimmer.dart';
+import 'package:movies_ap_p/core/presentation/component/rating_widget.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
+import 'package:movies_ap_p/core/resources/router/app_routes.dart';
 
 class ListviewCardSection extends StatelessWidget {
   const ListviewCardSection({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_colors.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
+import 'package:movies_ap_p/core/resources/constant/app_colors.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
 
 class NavigationButtons extends StatelessWidget {
   const NavigationButtons({super.key, required this.onBackPressed});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
-import 'package:movies_ap_p/core/constant/app_strings.dart';
-import 'package:movies_ap_p/core/widget/slider/detail/title_section.dart';
+import 'package:movies_ap_p/core/presentation/component/title_section.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
+import 'package:movies_ap_p/core/resources/constant/app_strings.dart';
 import 'package:readmore/readmore.dart';
 
 class MovieOverviewSection extends StatelessWidget {

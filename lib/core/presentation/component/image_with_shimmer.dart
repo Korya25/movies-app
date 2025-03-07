@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_colors.dart';
+import 'package:movies_ap_p/core/resources/constant/app_colors.dart';
 import 'package:shimmer/shimmer.dart';
 
 class ImageWithShimmer extends StatelessWidget {

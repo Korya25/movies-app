@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
-import 'package:movies_ap_p/core/constant/app_strings.dart';
-import 'package:movies_ap_p/core/widget/listview/listview_card_section.dart';
-import 'package:movies_ap_p/core/widget/listview/listview_section.dart';
-import 'package:movies_ap_p/core/widget/slider/detail/title_section.dart';
+import 'package:movies_ap_p/core/presentation/component/listview_card_section.dart';
+import 'package:movies_ap_p/core/presentation/component/listview_section.dart';
+import 'package:movies_ap_p/core/presentation/component/title_section.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
+import 'package:movies_ap_p/core/resources/constant/app_strings.dart';
 
 class MovieSimilarMoviesView extends StatelessWidget {
   const MovieSimilarMoviesView({super.key});

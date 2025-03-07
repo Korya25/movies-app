@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:movies_ap_p/core/router/app_routes.dart';
-import 'package:movies_ap_p/features/home/presentation/screens/main_screen.dart';
+import 'package:movies_ap_p/core/resources/router/app_routes.dart';
+import 'package:movies_ap_p/core/presentation/screen/main_screen.dart';
 import 'package:movies_ap_p/features/movies/presentation/screens/movie_details_screen.dart';
 import 'package:movies_ap_p/features/movies/presentation/screens/movies_screen.dart';
 import 'package:movies_ap_p/features/movies/presentation/screens/popular_movies_screen.dart';

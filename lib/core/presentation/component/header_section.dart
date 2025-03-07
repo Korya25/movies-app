@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_colors.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
+import 'package:movies_ap_p/core/resources/constant/app_colors.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
 
 class HeaderSection extends StatelessWidget {
   const HeaderSection({super.key, required this.title, required this.onTap});

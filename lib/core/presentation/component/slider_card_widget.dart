@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:movies_ap_p/core/router/app_routes.dart';
-import 'package:movies_ap_p/core/widget/slider/movie_slider/slider_card_content.dart';
-import 'package:movies_ap_p/core/widget/slider/common/slider_card_image.dart';
+import 'package:movies_ap_p/core/presentation/component/slider_card_content.dart';
+import 'package:movies_ap_p/core/presentation/component/slider_card_image.dart';
+import 'package:movies_ap_p/core/resources/router/app_routes.dart';
 
 class SliderCard extends StatelessWidget {
   const SliderCard({

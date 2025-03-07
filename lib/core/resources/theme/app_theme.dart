@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:movies_ap_p/core/constant/app_colors.dart';
+import 'package:movies_ap_p/core/resources/constant/app_colors.dart';
 
 ThemeData getApplicationTheme() {
   return ThemeData(

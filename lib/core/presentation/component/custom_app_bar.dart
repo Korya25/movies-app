@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:movies_ap_p/core/constant/app_colors.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
+import 'package:movies_ap_p/core/resources/constant/app_colors.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   const CustomAppBar({super.key, required this.title});

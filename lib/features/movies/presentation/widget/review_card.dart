@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:movies_ap_p/core/constant/app_colors.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
+import 'package:movies_ap_p/core/resources/constant/app_colors.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
 import 'package:movies_ap_p/core/utils/show_custom_bottom_sheet.dart';
 import 'package:movies_ap_p/features/movies/presentation/widget/avatar.dart';
 import 'package:movies_ap_p/features/movies/presentation/widget/review_content.dart';

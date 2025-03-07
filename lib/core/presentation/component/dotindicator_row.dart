@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_colors.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
+import 'package:movies_ap_p/core/resources/constant/app_colors.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
 
 class DotIndicator extends StatelessWidget {
   const DotIndicator({super.key, required this.isActive});

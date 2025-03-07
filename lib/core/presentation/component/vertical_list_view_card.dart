@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_colors.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
-import 'package:movies_ap_p/core/widget/slider/common/image_with_shimmer.dart';
+import 'package:movies_ap_p/core/presentation/component/image_with_shimmer.dart';
+import 'package:movies_ap_p/core/resources/constant/app_colors.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
 
 class VerticalListViewCard extends StatelessWidget {
-  const VerticalListViewCard({super.key});
-
+  const VerticalListViewCard({super.key, required this.onTap});
+  final Function()? onTap;
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     return GestureDetector(
-      onTap: () {},
+      onTap: onTap,
       child: Container(
         height: Dimens.size175,
         decoration: BoxDecoration(

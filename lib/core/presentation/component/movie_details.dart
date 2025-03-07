@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_colors.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
-import 'package:movies_ap_p/core/widget/common/circle_dot.dart';
+import 'package:movies_ap_p/core/presentation/component/circle_dot.dart';
+import 'package:movies_ap_p/core/resources/constant/app_colors.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
 
 class MovieDetails extends StatelessWidget {
   const MovieDetails({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:movies_ap_p/core/constant/app_dimens.dart';
-import 'package:movies_ap_p/core/widget/slider/detail/movie_card_details_content.dart';
-import 'package:movies_ap_p/core/widget/slider/detail/navigation_buttons.dart';
-import 'package:movies_ap_p/core/widget/slider/common/slider_card_image.dart';
+import 'package:movies_ap_p/core/presentation/component/movie_card_details_content.dart';
+import 'package:movies_ap_p/core/presentation/component/navigation_buttons.dart';
+import 'package:movies_ap_p/core/presentation/component/slider_card_image.dart';
+import 'package:movies_ap_p/core/resources/constant/app_dimens.dart';
 
 class MovieDetailsCard extends StatelessWidget {
   const MovieDetailsCard({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:movies_ap_p/core/router/app_router.dart';
-import 'package:movies_ap_p/core/theme/app_theme.dart';
+import 'package:movies_ap_p/core/resources/router/app_router.dart';
+import 'package:movies_ap_p/core/resources/theme/app_theme.dart';
 
 void main() {
   runApp(const MoviesApp());
